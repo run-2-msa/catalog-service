@@ -1,0 +1,6 @@
+--insert into catalog(product_id, product_name, stock, unit_price)
+--    values("CATALOG-001", "COFFEE1", 100, 1500);
+--insert into catalog(product_id, product_name, stock, unit_price)
+--    values("CATALOG-002", "COFFEE2", 110, 2500);
+--insert into catalog(product_id, product_name, stock, unit_price)
+--    values("CATALOG-003", "COFFEE3", 120, 2000);
