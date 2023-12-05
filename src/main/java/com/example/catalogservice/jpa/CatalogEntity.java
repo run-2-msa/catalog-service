@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Data
 //@Builder
 @Entity
-@Table(name = "catalog")
+@Table(name = "catalogs")
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class CatalogEntity {
     @Id
