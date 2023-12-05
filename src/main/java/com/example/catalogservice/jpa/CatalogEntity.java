@@ -32,7 +32,7 @@ public class CatalogEntity {
     @Column(nullable = false)
     private BigDecimal unitPrice;
 
-    @Column(nullable = false, updatable = false, insertable = false)
-    @ColumnDefault(value = "CURRENT_TIMESTAMP") // MySql v5.6.5 >=
+    // @Column(nullable = false, updatable = false, insertable = false)
+    // @ColumnDefault(value = "CURRENT_TIMESTAMP") // MySql v5.6.5 >=
     private LocalDateTime createdAt;
 }
