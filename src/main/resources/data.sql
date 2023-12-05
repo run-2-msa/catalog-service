@@ -1,6 +1,7 @@
---insert into catalog(product_id, product_name, stock, unit_price)
---    values("CATALOG-001", "COFFEE1", 100, 1500);
---insert into catalog(product_id, product_name, stock, unit_price)
---    values("CATALOG-002", "COFFEE2", 110, 2500);
---insert into catalog(product_id, product_name, stock, unit_price)
---    values("CATALOG-003", "COFFEE3", 120, 2000);
+-- -- mysql
+--insert into catalogs(product_id, product_name, stock, unit_price, created_at)
+--    values("CATALOG-001", "COFFEE1", 100, 1500, current_timestamp());
+--insert into catalogs(product_id, product_name, stock, unit_price, created_at)
+--    values("CATALOG-002", "COFFEE2", 110, 2500, current_timestamp());
+--insert into catalogs(product_id, product_name, stock, unit_price, created_at)
+--    values("CATALOG-003", "COFFEE3", 120, 2000, current_timestamp());
